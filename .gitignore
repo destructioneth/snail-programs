@@ -1,0 +1,32 @@
+# Rust
+target/
+**/*.rs.bk
+Cargo.lock
+
+# Anchor
+.anchor/
+target/
+test-ledger/
+
+# IDL
+target/idl/
+target/types/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node (if adding JS tests)
+node_modules/
+.yarn/
+
