@@ -1,7 +1,7 @@
 # Rust
 target/
 **/*.rs.bk
-Cargo.lock
+# Cargo.lock - Keep this file for deterministic builds (required for verification)
 
 # Anchor
 .anchor/
